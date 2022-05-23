@@ -1,0 +1,142 @@
+/*
+Common
+************************/
+
+html,
+body {
+  height: 100%
+}
+
+.content{
+    max-width: 600px;
+    margin: 0 auto;
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+}
+
+/*
+Post
+************************/
+
+.post_form{
+  padding: 20px 40px;
+  border-bottom: 1px solid #CCC;
+}
+
+.post_form input{
+  width: 70%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #CCC;
+}
+
+.post_form textarea{
+   width: 70%;
+   padding: 10px;
+   border: 1px solid #CCC; 
+}
+
+input#tweet {
+  width: 20%;
+  background-color: blue;
+  border-radius: 10px;
+  color: white;
+}
+
+input#file {
+  width: 45%;
+  border: 0;
+  padding-top: 20px;
+}
+#cancel{
+  text-decoration: none;
+   width: 12%;
+    background-color: grey
+}
+
+.posts ul{
+  padding: 0;
+}
+
+
+.posts li{
+  position: relative;
+  display: flex;
+  border-bottom: 1px solid #CCC;
+  padding: 17px;
+  list-style: none;
+}
+
+.posts li .menu_icon{
+  width: 20px;
+  position: absolute;
+  right: 30px;
+  top: 18px;
+}
+
+.posts li .menu{
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 15px;
+  border: 1px solid #CCC;
+  background-color: white;
+  padding: 10px 15px;
+  font-size: 13px;
+  border-radius: 3px;
+}
+
+.posts li .menu a{
+  text-decoration: none;
+}
+.posts li .logo{
+  flex-basis: 15%;
+}
+
+.posts li .logo img{
+  width: 60%;
+}
+
+.posts li .name_body{
+  flex-basis: 85%;
+}
+
+.posts li .name_body .name{
+  font-weight: bold;
+}
+
+.posts li .name_body .datetime{
+  color: gray;
+}
+
+@media screen and (max-width:500px) {
+    .posts li .name_body {
+        font-size: 20px;
+    }
+    #cancel{
+      width: 20%;
+    }
+}
+.logo{
+  width: 55px;
+  border-radius: 50%;
+  
+}
+
+.img-col{
+  display: flex;
+  border-bottom: 1px solid #CCC;
+  padding: 10px;
+}
+
+.img-col h2{
+  padding-left: 20px;
+}
+
+.file submit{
+  margin-left: 403px;
+  font-size: 20px;
+  background: deepskyblue;
+  color: white;
+  border: none;
+}
